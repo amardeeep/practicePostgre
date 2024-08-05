@@ -1,6 +1,5 @@
 const getNew = (req, res) => {
-  console.log("Something Happens");
-  res.send("Something Happens");
+  res.render("form");
 };
 const postNew = (req, res) => {
   res.send("Username to be saved", req.body.username);
